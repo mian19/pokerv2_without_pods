@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0968D9572A1025FC008E0F5D /* UserDefaultsManagisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968D93B2A1025FA008E0F5D /* UserDefaultsManagisi.swift */; };
+		0968D9612A1025FC008E0F5D /* ProjectTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968D9492A1025FB008E0F5D /* ProjectTabbar.swift */; };
+		0968D9632A1025FC008E0F5D /* WebViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968D94B2A1025FB008E0F5D /* WebViewControler.swift */; };
+		0968D9662A1025FC008E0F5D /* StoryOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968D94E2A1025FB008E0F5D /* StoryOnboarding.swift */; };
+		0968D9692A1025FC008E0F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968D9522A1025FB008E0F5D /* AppDelegate.swift */; };
+		0968D96E2A102CF9008E0F5D /* StoryOnboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0968D96D2A102CF9008E0F5D /* StoryOnboarding.storyboard */; };
+		0968D9702A102F66008E0F5D /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0968D96F2A102F66008E0F5D /* Manrope-Bold.ttf */; };
+		0968D9722A1031E1008E0F5D /* Manrope-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0968D9712A1031E1008E0F5D /* Manrope-ExtraBold.ttf */; };
+		0968D9742A12D09B008E0F5D /* EduViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0968D9732A12D09B008E0F5D /* EduViewController.storyboard */; };
+		0968D9762A12D0AB008E0F5D /* EduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0968D9752A12D0AB008E0F5D /* EduViewController.swift */; };
+		0968D9782A12E14D008E0F5D /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0968D9772A12E14D008E0F5D /* Manrope-SemiBold.ttf */; };
+		09CBBAFF2A1566220079CC49 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBBAFE2A1566220079CC49 /* TimeViewController.swift */; };
+		09CBBB012A1566330079CC49 /* TimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CBBB002A1566330079CC49 /* TimeViewController.storyboard */; };
+		09CBBB032A1566C30079CC49 /* BlindVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CBBB022A1566C30079CC49 /* BlindVC.storyboard */; };
+		09CBBB052A1566D60079CC49 /* BlindVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBBB042A1566D60079CC49 /* BlindVC.swift */; };
+		09CBBB072A1575F70079CC49 /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBBB062A1575F70079CC49 /* ProgressCircle.swift */; };
+		09CBBB092A15905B0079CC49 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBBB082A15905B0079CC49 /* InviteViewController.swift */; };
+		09CBBB0B2A15906C0079CC49 /* InviteViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CBBB0A2A15906C0079CC49 /* InviteViewController.storyboard */; };
+		09CBBB0D2A15A79F0079CC49 /* doneVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CBBB0C2A15A79F0079CC49 /* doneVC.storyboard */; };
+		09CBBB0F2A15A7B20079CC49 /* doneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CBBB0E2A15A7B20079CC49 /* doneVC.swift */; };
+		09F387F92A16EDC7006DDD3A /* ExVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F387F82A16EDC7006DDD3A /* ExVC.storyboard */; };
+		09F387FB2A16EDDD006DDD3A /* ExVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F387FA2A16EDDD006DDD3A /* ExVC.swift */; };
+		09F387FD2A170101006DDD3A /* readVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F387FC2A170101006DDD3A /* readVC.storyboard */; };
+		09F387FF2A17011C006DDD3A /* readVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F387FE2A17011C006DDD3A /* readVC.swift */; };
+		09F388012A17056C006DDD3A /* setVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F388002A17056C006DDD3A /* setVC.swift */; };
+		09F388032A170579006DDD3A /* setVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F388022A170579006DDD3A /* setVC.storyboard */; };
+		09F388062A170B62006DDD3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09F388052A170B62006DDD3A /* GoogleService-Info.plist */; };
+		09FD3CA22A0D82E300937C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FD3CA12A0D82E300937C67 /* Assets.xcassets */; };
+		09FD3CA52A0D82E300937C67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FD3CA32A0D82E300937C67 /* LaunchScreen.storyboard */; };
+		FFCD085CF80A91B2DE036008 /* Pods_PokerV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13EE99E012B51EBCA912854C /* Pods_PokerV2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0968D93B2A1025FA008E0F5D /* UserDefaultsManagisi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManagisi.swift; sourceTree = "<group>"; };
+		0968D9492A1025FB008E0F5D /* ProjectTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTabbar.swift; sourceTree = "<group>"; };
+		0968D94B2A1025FB008E0F5D /* WebViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewControler.swift; sourceTree = "<group>"; };
+		0968D94E2A1025FB008E0F5D /* StoryOnboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryOnboarding.swift; sourceTree = "<group>"; };
+		0968D9522A1025FB008E0F5D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0968D96D2A102CF9008E0F5D /* StoryOnboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryOnboarding.storyboard; sourceTree = "<group>"; };
+		0968D96F2A102F66008E0F5D /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		0968D9712A1031E1008E0F5D /* Manrope-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0968D9732A12D09B008E0F5D /* EduViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EduViewController.storyboard; sourceTree = "<group>"; };
+		0968D9752A12D0AB008E0F5D /* EduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EduViewController.swift; sourceTree = "<group>"; };
+		0968D9772A12E14D008E0F5D /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		09CBBAFE2A1566220079CC49 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		09CBBB002A1566330079CC49 /* TimeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimeViewController.storyboard; sourceTree = "<group>"; };
+		09CBBB022A1566C30079CC49 /* BlindVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BlindVC.storyboard; sourceTree = "<group>"; };
+		09CBBB042A1566D60079CC49 /* BlindVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindVC.swift; sourceTree = "<group>"; };
+		09CBBB062A1575F70079CC49 /* ProgressCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		09CBBB082A15905B0079CC49 /* InviteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
+		09CBBB0A2A15906C0079CC49 /* InviteViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InviteViewController.storyboard; sourceTree = "<group>"; };
+		09CBBB0C2A15A79F0079CC49 /* doneVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = doneVC.storyboard; sourceTree = "<group>"; };
+		09CBBB0E2A15A7B20079CC49 /* doneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doneVC.swift; sourceTree = "<group>"; };
+		09F387F82A16EDC7006DDD3A /* ExVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExVC.storyboard; sourceTree = "<group>"; };
+		09F387FA2A16EDDD006DDD3A /* ExVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExVC.swift; sourceTree = "<group>"; };
+		09F387FC2A170101006DDD3A /* readVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = readVC.storyboard; sourceTree = "<group>"; };
+		09F387FE2A17011C006DDD3A /* readVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readVC.swift; sourceTree = "<group>"; };
+		09F388002A17056C006DDD3A /* setVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setVC.swift; sourceTree = "<group>"; };
+		09F388022A170579006DDD3A /* setVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = setVC.storyboard; sourceTree = "<group>"; };
+		09F388042A170AC7006DDD3A /* PokerV2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PokerV2.entitlements; sourceTree = "<group>"; };
+		09F388052A170B62006DDD3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09FD3C952A0D82E100937C67 /* PokerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FD3CA12A0D82E300937C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FD3CA42A0D82E300937C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09FD3CA62A0D82E300937C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13EE99E012B51EBCA912854C /* Pods_PokerV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokerV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5369C54C4DAA1C7B8090529 /* Pods-PokerV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokerV2.debug.xcconfig"; path = "Target Support Files/Pods-PokerV2/Pods-PokerV2.debug.xcconfig"; sourceTree = "<group>"; };
+		CE44552AC9A5A8E2D49D8A58 /* Pods-PokerV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokerV2.release.xcconfig"; path = "Target Support Files/Pods-PokerV2/Pods-PokerV2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FD3C922A0D82E100937C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCD085CF80A91B2DE036008 /* Pods_PokerV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00390EB4D8EC0B04B63CC458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13EE99E012B51EBCA912854C /* Pods_PokerV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0968D93A2A1025FA008E0F5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0968D93B2A1025FA008E0F5D /* UserDefaultsManagisi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0968D9452A1025FB008E0F5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0968D9492A1025FB008E0F5D /* ProjectTabbar.swift */,
+				0968D94B2A1025FB008E0F5D /* WebViewControler.swift */,
+				0968D94E2A1025FB008E0F5D /* StoryOnboarding.swift */,
+				0968D96D2A102CF9008E0F5D /* StoryOnboarding.storyboard */,
+				0968D9732A12D09B008E0F5D /* EduViewController.storyboard */,
+				0968D9752A12D0AB008E0F5D /* EduViewController.swift */,
+				09CBBB062A1575F70079CC49 /* ProgressCircle.swift */,
+				09CBBAFE2A1566220079CC49 /* TimeViewController.swift */,
+				09CBBB002A1566330079CC49 /* TimeViewController.storyboard */,
+				09CBBB022A1566C30079CC49 /* BlindVC.storyboard */,
+				09CBBB042A1566D60079CC49 /* BlindVC.swift */,
+				09CBBB082A15905B0079CC49 /* InviteViewController.swift */,
+				09CBBB0A2A15906C0079CC49 /* InviteViewController.storyboard */,
+				09CBBB0C2A15A79F0079CC49 /* doneVC.storyboard */,
+				09CBBB0E2A15A7B20079CC49 /* doneVC.swift */,
+				09F387F82A16EDC7006DDD3A /* ExVC.storyboard */,
+				09F387FA2A16EDDD006DDD3A /* ExVC.swift */,
+				09F387FC2A170101006DDD3A /* readVC.storyboard */,
+				09F387FE2A17011C006DDD3A /* readVC.swift */,
+				09F388002A17056C006DDD3A /* setVC.swift */,
+				09F388022A170579006DDD3A /* setVC.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09FD3C8C2A0D82E100937C67 = {
+			isa = PBXGroup;
+			children = (
+				09FD3C972A0D82E100937C67 /* PokerV2 */,
+				09FD3C962A0D82E100937C67 /* Products */,
+				A19BB88EC7EB1FD433E893F4 /* Pods */,
+				00390EB4D8EC0B04B63CC458 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09FD3C962A0D82E100937C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FD3C952A0D82E100937C67 /* PokerV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FD3C972A0D82E100937C67 /* PokerV2 */ = {
+			isa = PBXGroup;
+			children = (
+				09F388042A170AC7006DDD3A /* PokerV2.entitlements */,
+				0968D96F2A102F66008E0F5D /* Manrope-Bold.ttf */,
+				0968D9772A12E14D008E0F5D /* Manrope-SemiBold.ttf */,
+				0968D9712A1031E1008E0F5D /* Manrope-ExtraBold.ttf */,
+				0968D9522A1025FB008E0F5D /* AppDelegate.swift */,
+				09FD3CA12A0D82E300937C67 /* Assets.xcassets */,
+				09FD3CA32A0D82E300937C67 /* LaunchScreen.storyboard */,
+				0968D93A2A1025FA008E0F5D /* Services */,
+				0968D9452A1025FB008E0F5D /* Views */,
+				09FD3CA62A0D82E300937C67 /* Info.plist */,
+				09F388052A170B62006DDD3A /* GoogleService-Info.plist */,
+			);
+			path = PokerV2;
+			sourceTree = "<group>";
+		};
+		A19BB88EC7EB1FD433E893F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5369C54C4DAA1C7B8090529 /* Pods-PokerV2.debug.xcconfig */,
+				CE44552AC9A5A8E2D49D8A58 /* Pods-PokerV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FD3C942A0D82E100937C67 /* PokerV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FD3CA92A0D82E300937C67 /* Build configuration list for PBXNativeTarget "PokerV2" */;
+			buildPhases = (
+				D085F6DEF60AE75525979479 /* [CP] Check Pods Manifest.lock */,
+				09FD3C912A0D82E100937C67 /* Sources */,
+				09FD3C922A0D82E100937C67 /* Frameworks */,
+				09FD3C932A0D82E100937C67 /* Resources */,
+				A485A95199FBD839A68C7384 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokerV2;
+			productName = PokerV2;
+			productReference = 09FD3C952A0D82E100937C67 /* PokerV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FD3C8D2A0D82E100937C67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					09FD3C942A0D82E100937C67 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = 09FD3C902A0D82E100937C67 /* Build configuration list for PBXProject "PokerV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09FD3C8C2A0D82E100937C67;
+			productRefGroup = 09FD3C962A0D82E100937C67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FD3C942A0D82E100937C67 /* PokerV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FD3C932A0D82E100937C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FD3CA52A0D82E300937C67 /* LaunchScreen.storyboard in Resources */,
+				0968D9702A102F66008E0F5D /* Manrope-Bold.ttf in Resources */,
+				09F388062A170B62006DDD3A /* GoogleService-Info.plist in Resources */,
+				0968D96E2A102CF9008E0F5D /* StoryOnboarding.storyboard in Resources */,
+				09F387FD2A170101006DDD3A /* readVC.storyboard in Resources */,
+				09F387F92A16EDC7006DDD3A /* ExVC.storyboard in Resources */,
+				0968D9722A1031E1008E0F5D /* Manrope-ExtraBold.ttf in Resources */,
+				09CBBB012A1566330079CC49 /* TimeViewController.storyboard in Resources */,
+				09FD3CA22A0D82E300937C67 /* Assets.xcassets in Resources */,
+				09CBBB0D2A15A79F0079CC49 /* doneVC.storyboard in Resources */,
+				09CBBB0B2A15906C0079CC49 /* InviteViewController.storyboard in Resources */,
+				0968D9782A12E14D008E0F5D /* Manrope-SemiBold.ttf in Resources */,
+				0968D9742A12D09B008E0F5D /* EduViewController.storyboard in Resources */,
+				09F388032A170579006DDD3A /* setVC.storyboard in Resources */,
+				09CBBB032A1566C30079CC49 /* BlindVC.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A485A95199FBD839A68C7384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokerV2/Pods-PokerV2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokerV2/Pods-PokerV2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokerV2/Pods-PokerV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D085F6DEF60AE75525979479 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokerV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FD3C912A0D82E100937C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968D9692A1025FC008E0F5D /* AppDelegate.swift in Sources */,
+				09CBBAFF2A1566220079CC49 /* TimeViewController.swift in Sources */,
+				0968D9612A1025FC008E0F5D /* ProjectTabbar.swift in Sources */,
+				09F388012A17056C006DDD3A /* setVC.swift in Sources */,
+				09F387FB2A16EDDD006DDD3A /* ExVC.swift in Sources */,
+				09F387FF2A17011C006DDD3A /* readVC.swift in Sources */,
+				09CBBB092A15905B0079CC49 /* InviteViewController.swift in Sources */,
+				0968D9632A1025FC008E0F5D /* WebViewControler.swift in Sources */,
+				0968D9762A12D0AB008E0F5D /* EduViewController.swift in Sources */,
+				09CBBB052A1566D60079CC49 /* BlindVC.swift in Sources */,
+				0968D9572A1025FC008E0F5D /* UserDefaultsManagisi.swift in Sources */,
+				0968D9662A1025FC008E0F5D /* StoryOnboarding.swift in Sources */,
+				09CBBB072A1575F70079CC49 /* ProgressCircle.swift in Sources */,
+				09CBBB0F2A15A7B20079CC49 /* doneVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09FD3CA32A0D82E300937C67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FD3CA42A0D82E300937C67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FD3CA72A0D82E300937C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09FD3CA82A0D82E300937C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FD3CAA2A0D82E300937C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5369C54C4DAA1C7B8090529 /* Pods-PokerV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PokerV2/PokerV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokerV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = play.poker.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FD3CAB2A0D82E300937C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE44552AC9A5A8E2D49D8A58 /* Pods-PokerV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PokerV2/PokerV2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokerV2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = play.poker.game;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FD3C902A0D82E100937C67 /* Build configuration list for PBXProject "PokerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FD3CA72A0D82E300937C67 /* Debug */,
+				09FD3CA82A0D82E300937C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FD3CA92A0D82E300937C67 /* Build configuration list for PBXNativeTarget "PokerV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FD3CAA2A0D82E300937C67 /* Debug */,
+				09FD3CAB2A0D82E300937C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FD3C8D2A0D82E100937C67 /* Project object */;
+}

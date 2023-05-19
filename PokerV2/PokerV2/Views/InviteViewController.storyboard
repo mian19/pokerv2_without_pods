@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+        <array key="Manrope-ExtraBold.ttf">
+            <string>Manrope-ExtraBold</string>
+        </array>
+        <array key="Manrope-SemiBold.ttf">
+            <string>Manrope-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Invite View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="InviteViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="InviteViewController" customModule="PokerV2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invitation to play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTp-e0-eJi">
+                                <rect key="frame" x="20" y="79" width="260.33333333333331" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ZQ7-B2-BZQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Baa-ds-mOZ">
+                                <rect key="frame" x="20" y="143" width="32" height="21"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Egb-Uo-K1F"/>
+                                    <constraint firstAttribute="width" constant="32" id="GhD-TB-WGU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Your text" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PxO-JD-Atj">
+                                <rect key="frame" x="20" y="169" width="353" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="IHj-Xk-Aui"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1R-7H-n22" userLabel="Date">
+                                <rect key="frame" x="20" y="229" width="70" height="21"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="B9R-B1-Edu"/>
+                                    <constraint firstAttribute="width" constant="70" id="nxY-9a-Cra"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="dd/MM/yyyy" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FxZ-MA-Mpn">
+                                <rect key="frame" x="20" y="255" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="kby-y3-4kX"/>
+                                    <constraint firstAttribute="width" constant="157" id="mh0-fc-1kq"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Players" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cx5-Ye-Vu3" userLabel="Players">
+                                <rect key="frame" x="20" y="315" width="70" height="21"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GIw-QP-ECa"/>
+                                    <constraint firstAttribute="width" constant="70" id="izA-Si-nbW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Player 1 name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BBc-cc-AQG">
+                                <rect key="frame" x="20" y="341" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Jcb-LY-hmI"/>
+                                    <constraint firstAttribute="width" constant="157" id="inE-0T-GqS"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6JJ-xZ-REl">
+                                <rect key="frame" x="216" y="229" width="70" height="21"/>
+                                <color key="tintColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="0wa-px-YjR"/>
+                                    <constraint firstAttribute="width" constant="70" id="IJ6-3c-GEJ"/>
+                                    <constraint firstAttribute="height" constant="21" id="P3G-LR-Ydq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="hh:mm" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wbd-M5-j61">
+                                <rect key="frame" x="216" y="255" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="157" id="8gv-rA-Gjg"/>
+                                    <constraint firstAttribute="height" constant="52" id="uXq-AN-Fi4"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Player 2 name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fqr-Tt-zng">
+                                <rect key="frame" x="20" y="401" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="R3E-BF-zNW"/>
+                                    <constraint firstAttribute="width" constant="157" id="Roq-S2-7Wz"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Player 3 name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MS9-he-dEJ">
+                                <rect key="frame" x="20" y="461" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="157" id="cVi-ll-fPb"/>
+                                    <constraint firstAttribute="height" constant="52" id="nrJ-cG-o3d"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Player 4 name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cSD-l7-TNi">
+                                <rect key="frame" x="216" y="341" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="31t-b2-3g6"/>
+                                    <constraint firstAttribute="width" constant="157" id="uYo-LY-RRi"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Player 5 name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lFX-L3-Rxd">
+                                <rect key="frame" x="216" y="401" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="157" id="bS3-oc-7rF"/>
+                                    <constraint firstAttribute="height" constant="52" id="eAD-qE-HMI"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Player 6 name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZGX-B3-hxP">
+                                <rect key="frame" x="216" y="461" width="157" height="52"/>
+                                <color key="backgroundColor" red="0.37536716460000003" green="0.40834715960000001" blue="0.72162693739999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="2CX-rn-AGe"/>
+                                    <constraint firstAttribute="width" constant="157" id="Jtw-Rc-haU"/>
+                                </constraints>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                        <color key="value" red="0.68733036520000002" green="0.70308947560000001" blue="0.85885864499999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQv-UW-qik">
+                                <rect key="frame" x="20" y="716" width="353" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="uuu-1A-jLR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-ExtraBold" family="Manrope" pointSize="19"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="INVITE" backgroundImage="onbnBut">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="invite:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="WNP-CX-Thx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.077103160320000003" green="0.12169908729999999" blue="0.27061527969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="FxZ-MA-Mpn" firstAttribute="top" secondItem="R1R-7H-n22" secondAttribute="bottom" constant="5" id="0Bj-j6-jca"/>
+                            <constraint firstItem="cx5-Ye-Vu3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="0Sw-JO-X64"/>
+                            <constraint firstItem="Baa-ds-mOZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="1Cu-np-LH5"/>
+                            <constraint firstItem="FxZ-MA-Mpn" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="4mS-yq-uSu"/>
+                            <constraint firstItem="R1R-7H-n22" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="4oD-wC-AFg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ZGX-B3-hxP" secondAttribute="trailing" constant="20" id="7l6-le-GoH"/>
+                            <constraint firstItem="lFX-L3-Rxd" firstAttribute="top" secondItem="cSD-l7-TNi" secondAttribute="bottom" constant="8" symbolic="YES" id="9R6-K7-rAG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="lFX-L3-Rxd" secondAttribute="trailing" constant="20" id="Dha-rv-TmO"/>
+                            <constraint firstItem="MS9-he-dEJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="DwO-53-Dez"/>
+                            <constraint firstItem="ZGX-B3-hxP" firstAttribute="top" secondItem="lFX-L3-Rxd" secondAttribute="bottom" constant="8" symbolic="YES" id="Gq3-qq-pP2"/>
+                            <constraint firstItem="R1R-7H-n22" firstAttribute="top" secondItem="PxO-JD-Atj" secondAttribute="bottom" constant="8" symbolic="YES" id="LbD-7S-waq"/>
+                            <constraint firstItem="Fqr-Tt-zng" firstAttribute="top" secondItem="BBc-cc-AQG" secondAttribute="bottom" constant="8" symbolic="YES" id="MVx-0b-Sfr"/>
+                            <constraint firstItem="Wbd-M5-j61" firstAttribute="top" secondItem="6JJ-xZ-REl" secondAttribute="bottom" constant="5" id="MoT-ob-7KI"/>
+                            <constraint firstItem="ZGX-B3-hxP" firstAttribute="top" secondItem="lFX-L3-Rxd" secondAttribute="bottom" constant="8" symbolic="YES" id="O9d-3t-8Ou"/>
+                            <constraint firstItem="TTp-e0-eJi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="QXf-wR-x6B"/>
+                            <constraint firstItem="PQv-UW-qik" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="QpR-F5-zOm"/>
+                            <constraint firstItem="lFX-L3-Rxd" firstAttribute="top" secondItem="cSD-l7-TNi" secondAttribute="bottom" constant="8" symbolic="YES" id="Qqa-dN-voa"/>
+                            <constraint firstItem="6JJ-xZ-REl" firstAttribute="top" secondItem="PxO-JD-Atj" secondAttribute="bottom" constant="8" symbolic="YES" id="RuW-VY-ieX"/>
+                            <constraint firstItem="cx5-Ye-Vu3" firstAttribute="top" secondItem="FxZ-MA-Mpn" secondAttribute="bottom" constant="8" symbolic="YES" id="U2P-eQ-GoI"/>
+                            <constraint firstItem="BBc-cc-AQG" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Ubd-y9-g7o"/>
+                            <constraint firstItem="Wbd-M5-j61" firstAttribute="top" secondItem="6JJ-xZ-REl" secondAttribute="bottom" constant="5" id="XHz-LY-SfE"/>
+                            <constraint firstItem="MS9-he-dEJ" firstAttribute="top" secondItem="Fqr-Tt-zng" secondAttribute="bottom" constant="8" symbolic="YES" id="Yrn-Hu-Gxe"/>
+                            <constraint firstItem="Fqr-Tt-zng" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Z12-Jw-aT8"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="PQv-UW-qik" secondAttribute="bottom" constant="50" id="Zg0-4d-TGr"/>
+                            <constraint firstItem="TTp-e0-eJi" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="c3j-jQ-Npe"/>
+                            <constraint firstItem="PxO-JD-Atj" firstAttribute="top" secondItem="Baa-ds-mOZ" secondAttribute="bottom" constant="5" id="d1X-iI-9g4"/>
+                            <constraint firstItem="PxO-JD-Atj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="djV-Bb-lPH"/>
+                            <constraint firstItem="BBc-cc-AQG" firstAttribute="top" secondItem="cx5-Ye-Vu3" secondAttribute="bottom" constant="5" id="fE6-1v-t7H"/>
+                            <constraint firstItem="6JJ-xZ-REl" firstAttribute="leading" secondItem="Wbd-M5-j61" secondAttribute="leading" id="goy-c5-IAR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cSD-l7-TNi" secondAttribute="trailing" constant="20" id="jXq-AP-WZR"/>
+                            <constraint firstItem="cSD-l7-TNi" firstAttribute="top" secondItem="Wbd-M5-j61" secondAttribute="bottom" constant="34" id="kb3-gA-GLZ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Wbd-M5-j61" secondAttribute="trailing" constant="20" id="llk-ng-6Fs"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PxO-JD-Atj" secondAttribute="trailing" constant="20" id="lpl-fp-Uvf"/>
+                            <constraint firstItem="Baa-ds-mOZ" firstAttribute="top" secondItem="TTp-e0-eJi" secondAttribute="bottom" constant="20" id="nBN-80-Zx9"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PQv-UW-qik" secondAttribute="trailing" constant="20" id="s0m-oi-uG6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dateL" destination="FxZ-MA-Mpn" id="awo-S6-kJp"/>
+                        <outlet property="pl1L" destination="BBc-cc-AQG" id="NXx-cd-HrE"/>
+                        <outlet property="pl2L" destination="Fqr-Tt-zng" id="8Sc-aN-fmg"/>
+                        <outlet property="pl3L" destination="MS9-he-dEJ" id="tfb-Q2-2en"/>
+                        <outlet property="pl4L" destination="cSD-l7-TNi" id="7b5-Ho-3VS"/>
+                        <outlet property="pl5L" destination="lFX-L3-Rxd" id="sMg-xM-RY8"/>
+                        <outlet property="pl6L" destination="ZGX-B3-hxP" id="0dd-uj-vhJ"/>
+                        <outlet property="textL" destination="PxO-JD-Atj" id="1Nr-EQ-QAa"/>
+                        <outlet property="timeL" destination="Wbd-M5-j61" id="pFV-Hq-ZSU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.297709923664122" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onbnBut" width="352" height="52"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

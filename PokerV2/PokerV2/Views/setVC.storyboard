@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--SetVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="setVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="setVC" customModule="PokerV2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ess-IT-rr8">
+                                <rect key="frame" x="20" y="79" width="132.33333333333334" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="EsE-KX-ZpP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbK-r8-tJz">
+                                <rect key="frame" x="20" y="203" width="353" height="32"/>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="23"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Privacy policy" image="setVector">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onPr:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="F1W-95-O7E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tB3-iB-huq">
+                                <rect key="frame" x="20" y="250" width="353" height="32"/>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="23"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Terms of conditions" image="setVector">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onTerm:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="xZX-eR-WMC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ik7-cm-ALq">
+                                <rect key="frame" x="20" y="299" width="353" height="32"/>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="23"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="300" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Support" image="setVector">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSup:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="A8I-5l-yFt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.077103160320000003" green="0.12169908729999999" blue="0.27061527969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tB3-iB-huq" firstAttribute="top" secondItem="VbK-r8-tJz" secondAttribute="bottom" constant="15" id="02h-bP-JVE"/>
+                            <constraint firstItem="ess-IT-rr8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="50O-9q-FnZ"/>
+                            <constraint firstItem="Ik7-cm-ALq" firstAttribute="top" secondItem="tB3-iB-huq" secondAttribute="bottom" constant="17" id="AVG-vi-Ynt"/>
+                            <constraint firstItem="Ik7-cm-ALq" firstAttribute="trailing" secondItem="VbK-r8-tJz" secondAttribute="trailing" id="Gl8-z1-QP7"/>
+                            <constraint firstItem="Ik7-cm-ALq" firstAttribute="leading" secondItem="tB3-iB-huq" secondAttribute="leading" id="Gt3-lV-5fw"/>
+                            <constraint firstItem="Ik7-cm-ALq" firstAttribute="leading" secondItem="VbK-r8-tJz" secondAttribute="leading" id="HOw-UU-90c"/>
+                            <constraint firstItem="VbK-r8-tJz" firstAttribute="top" secondItem="ess-IT-rr8" secondAttribute="bottom" constant="80" id="Q2N-NS-2sR"/>
+                            <constraint firstItem="ess-IT-rr8" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="Xex-10-bUf"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VbK-r8-tJz" secondAttribute="trailing" constant="20" id="kXv-dx-HWJ"/>
+                            <constraint firstItem="Ik7-cm-ALq" firstAttribute="trailing" secondItem="tB3-iB-huq" secondAttribute="trailing" id="paH-Cg-aym"/>
+                            <constraint firstItem="VbK-r8-tJz" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="rcH-EF-1qQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="setVector" width="12" height="20"/>
+    </resources>
+</document>

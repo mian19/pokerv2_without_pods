@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+        <array key="Manrope-ExtraBold.ttf">
+            <string>Manrope-ExtraBold</string>
+        </array>
+        <array key="Manrope-SemiBold.ttf">
+            <string>Manrope-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--ExVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="ExVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="ExVC" customModule="PokerV2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Su-xh-C3t">
+                                <rect key="frame" x="20" y="79" width="170" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Z9w-oM-7bM"/>
+                                    <constraint firstAttribute="width" constant="170" id="vDP-81-1bL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vD2-vf-swW">
+                                <rect key="frame" x="326" y="95" width="47" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="1oa-wS-nZF"/>
+                                    <constraint firstAttribute="width" constant="47" id="JwW-aD-iRz"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="customD"/>
+                                <connections>
+                                    <action selector="home:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="aql-is-PX9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="M1d-E5-5YF">
+                                <rect key="frame" x="20" y="173" width="353" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="ywT-9l-rd7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-ExtraBold" family="Manrope" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2d2-ge-Nvr">
+                                <rect key="frame" x="25" y="393" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="QsE-us-WpL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="17"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="noOkAns"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zxd-OE-CQC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="467-SJ-650">
+                                <rect key="frame" x="25" y="436" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="xh0-cx-trO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="noOkAns"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="K3G-6W-53N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEG-PD-N8N">
+                                <rect key="frame" x="25" y="474" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ydc-Gq-X1F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="noOkAns"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="KAY-Fc-u4c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EM1-Lh-nzB">
+                                <rect key="frame" x="25" y="514" width="343" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="FgM-dg-Ye6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="noOkAns"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FKm-N6-NTn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.077103160320000003" green="0.12169908729999999" blue="0.27061527969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="hEG-PD-N8N" firstAttribute="leading" secondItem="467-SJ-650" secondAttribute="leading" id="1VK-Ll-P86"/>
+                            <constraint firstItem="2d2-ge-Nvr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="25" id="59L-mJ-v7y"/>
+                            <constraint firstItem="467-SJ-650" firstAttribute="top" secondItem="2d2-ge-Nvr" secondAttribute="bottom" constant="8" symbolic="YES" id="9AI-zS-RBX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="M1d-E5-5YF" secondAttribute="trailing" constant="20" id="L9G-9H-0a2"/>
+                            <constraint firstItem="hEG-PD-N8N" firstAttribute="trailing" secondItem="467-SJ-650" secondAttribute="trailing" id="LVN-9J-zbK"/>
+                            <constraint firstItem="M1d-E5-5YF" firstAttribute="top" secondItem="2Su-xh-C3t" secondAttribute="bottom" constant="50" id="NAG-Ks-IIJ"/>
+                            <constraint firstItem="467-SJ-650" firstAttribute="trailing" secondItem="2d2-ge-Nvr" secondAttribute="trailing" id="Pg2-fu-9JV"/>
+                            <constraint firstItem="2d2-ge-Nvr" firstAttribute="top" secondItem="M1d-E5-5YF" secondAttribute="bottom" constant="50" id="Pyk-h9-TaC"/>
+                            <constraint firstItem="2Su-xh-C3t" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="RF6-Ga-nz1"/>
+                            <constraint firstItem="vD2-vf-swW" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="36" id="b3x-Ht-WqT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="vD2-vf-swW" secondAttribute="trailing" constant="20" id="c1x-DV-NNH"/>
+                            <constraint firstItem="EM1-Lh-nzB" firstAttribute="top" secondItem="hEG-PD-N8N" secondAttribute="bottom" constant="5" id="frS-Hw-rXC"/>
+                            <constraint firstItem="467-SJ-650" firstAttribute="leading" secondItem="2d2-ge-Nvr" secondAttribute="leading" id="kZY-jV-BN1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="2d2-ge-Nvr" secondAttribute="trailing" constant="25" id="l8C-zt-Tk0"/>
+                            <constraint firstItem="EM1-Lh-nzB" firstAttribute="trailing" secondItem="hEG-PD-N8N" secondAttribute="trailing" id="m38-WC-bV7"/>
+                            <constraint firstItem="2Su-xh-C3t" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="oY8-kF-s0F"/>
+                            <constraint firstItem="EM1-Lh-nzB" firstAttribute="leading" secondItem="hEG-PD-N8N" secondAttribute="leading" id="ooq-ng-5rX"/>
+                            <constraint firstItem="2d2-ge-Nvr" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="tJp-d0-Vvy"/>
+                            <constraint firstItem="hEG-PD-N8N" firstAttribute="top" secondItem="467-SJ-650" secondAttribute="bottom" constant="3" id="v53-ww-Ykp"/>
+                            <constraint firstItem="M1d-E5-5YF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="z41-FY-hMb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ans1" destination="2d2-ge-Nvr" id="mgP-92-aHe"/>
+                        <outlet property="ans2" destination="467-SJ-650" id="xGe-Ll-hFS"/>
+                        <outlet property="ans3" destination="hEG-PD-N8N" id="wkH-om-Ecn"/>
+                        <outlet property="ans4" destination="EM1-Lh-nzB" id="rhG-5u-N8Q"/>
+                        <outlet property="askLabel" destination="M1d-E5-5YF" id="wBc-s3-h5p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.95419847328243" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="customD" width="47" height="15"/>
+        <image name="noOkAns" width="24" height="24"/>
+    </resources>
+</document>

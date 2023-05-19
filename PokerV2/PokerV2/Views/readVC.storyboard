@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--ReadVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="readVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="readVC" customModule="PokerV2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58h-rr-zhk">
+                                <rect key="frame" x="20" y="79" width="20" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="DDi-vG-kdK"/>
+                                    <constraint firstAttribute="width" constant="20" id="Zl5-9U-QYv"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="customB"/>
+                                <connections>
+                                    <action selector="bac:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Tpr-PE-rNw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Poker rules" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OAG-fQ-zr5">
+                                <rect key="frame" x="71.666666666666671" y="64" width="249.66666666666663" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ucp-2S-I4P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="32"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7ex-KJ-Gd9">
+                                <rect key="frame" x="20" y="158" width="353" height="620"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Learning how to play basic poker is not nearly as hard as many people imagine. There are generally two types: Stud Poker and Draw Poker. The rules for these games are almost identical and both are presented here.
+
+In Stud Poker, each player is dealt five cards (or seven for some games). Players then assess the relative strength of their hands and wager chips accordingly. The player who bids the most chips wins unless someone else is willing to match the player’s bet. In that scenario, the two (or more) players remaining will show their cards. The best hand wins all the chips.
+
+Draw Poker, each player is dealt five cards, and a round of betting ensues. The remaining players then may attempt to improve their hands by trading as many as three cards for a new three from the deck. If a player has an Ace, he may trade all four of his other cards if he so desires.
+
+The rounds of betting work like this: Starting to the left of the dealer, each player has four options:
+
+Raise — A player who thinks he has a good hand (or who wants the other players to think he has a good hand) may increase the wager required to continue playing.
+Fold — A player who thinks his hand is not good enough to win and who does not want to wager the increased amount may lay down his cards. He cannot win the hand, but he also will not lose any more chips.
+Call — Once a player has raised the stakes, each player must decide whether to raise the stakes again, to give in and fold his hand, or to call, which means to equal the amount wagered by the player who raised.
+Check — If no one has increased the wager required to continue, a player may stand pat by checking, or passing on his option to bet.
+While there are many varieties of poker games, the same basic rules apply to almost all of them. Typically, five or seven cards are dealt to each player. Players attempt to form the best five-card poker hand possible (see below). For every poker game, the same hierarchy of hands exists, and the better hands are rarer and more difficult to achieve than the lesser hands.
+
+Individual cards are ranked from best to worst. The rank of a card often breaks the tie if two players achieve the same hand. The Ace is the most valuable card. From there, it goes in descending order: King, Queen, Jack, 10, 9, 8, 7, 6, 5, 4, 3, 2.
+
+The ranking of hands, from lowest to highest value:
+
+High card. If no combination can be made, then a player’s hand is valued at the highest single card. If two players have the same high card, then the second highest card would break the tie.
+Example: 5♣ 8♦ 10♠ Q♥ A♠
+One Pair. A pair is formed when you have two of any of the same cards.
+Example: 9♠ 9♦ 5♣ 8♣ K♥
+Two Pairs. When more than one player has two pairs, the player with the highest pair wins.
+Example: 9♠ 9♦ 5♣ 5♥ 8♥
+Three of a Kind.
+Example: 9♠ 9♦ 9♥ 5♣ 8♣
+Straight. A straight is a five-card hand consisting of a running sequence of cards, regardless of suit. If two players have straights, the straight of the higher card wins.
+Example: 9♠ 10♠ J♦ Q♥ K♦
+Flush. When all five cards in a hand are of the same suit, it is a flush. If two players have a flush, the person with the highest card in that suit wins.
+Example: 9♠ 5♠ Q♠ K♠ 7♠
+Full House. When a player has three-of-a-kind and a pair in the same hand, it is called a Full House.
+Example: 9♠ 9♦ 9♥ 5♣ 5♥
+Four of a Kind. If you are lucky enough to have all four of a given number, then you have a very powerful hand.
+Example: 9♠ 9♦ 9♥ 9♣ 5♣
+Straight Flush. Even rarer than four of a kind, a straight flush is made up of five consecutive cards, all from the same suit.
+Example: 9♠ 10♠ J♠ Q♠ K♠
+Royal Flush. The best hand of them all is this famous combination, formed by a Straight Flush that runs to the Ace, making it unbeatable. Odds of being dealt this hand can be as high as 1 in 650,000 deals.
+Example: 10♥ J♥ Q♥ K♥ A♥
+Objective
+Play these games together, without chips or money, and let the kids try to master recognizing the hands and playing correctly. Older kids often enjoy just playing for chips, with no money tied to them. Simply winning by acquiring the biggest stack is enough.
+
+Play for a prize
+One of the things older kids like about poker is all the fancy stuff that goes with it. They will love it if you break out a green felt and real poker chips and make a friendly home game feel like an event. Don’t make the chips worth any money, but give out a small prize to the person who ends with the most chips. Your whole family will have a great time.
+</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.077103160320000003" green="0.12169908729999999" blue="0.27061527969999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="OAG-fQ-zr5" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="30c-Wu-zXL"/>
+                            <constraint firstItem="OAG-fQ-zr5" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="5" id="Eop-0q-z4c"/>
+                            <constraint firstItem="7ex-KJ-Gd9" firstAttribute="top" secondItem="OAG-fQ-zr5" secondAttribute="bottom" constant="50" id="HzP-Nn-TmK"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="7ex-KJ-Gd9" secondAttribute="bottom" constant="40" id="Pue-3S-TTE"/>
+                            <constraint firstItem="7ex-KJ-Gd9" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="R6m-tq-Uqr"/>
+                            <constraint firstItem="58h-rr-zhk" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="fu0-VP-8Qz"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7ex-KJ-Gd9" secondAttribute="trailing" constant="20" id="rr5-oD-3QP"/>
+                            <constraint firstItem="58h-rr-zhk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="xdA-pl-Atq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tex" destination="7ex-KJ-Gd9" id="YJm-Pg-3rf"/>
+                        <outlet property="tit" destination="OAG-fQ-zr5" id="nFh-qO-vKC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="customB" width="20" height="20"/>
+    </resources>
+</document>
